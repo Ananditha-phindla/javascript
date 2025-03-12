@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let n = Math.random();
+        console.log(n);
+        let result;
+        if(n < 0.5) 
+            result = "heads";
+        else
+            result = "tails";
+        let guess = "heads";
+        if(guess == result)
+            console.log("you win!");
+        else
+            console.log("You lose!");
+    </script>
+</body>
+</html>
